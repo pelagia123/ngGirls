@@ -1,0 +1,7 @@
+<div class="todo-item">
+  {{item.title}}
+  <img src="{{item.url}}" alt="{{item.title}}" *ngIf="item.url">
+  <button class="btn btn-red" (click)="removeItem()">
+    remove
+  </button>
+</div>
